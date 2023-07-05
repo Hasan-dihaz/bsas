@@ -10,9 +10,9 @@ export default function Contact() {
                 <div></div>
                 <div className="flex flex-row justify-between"> 
                     <div className=" w-1/2 flex">
-                        <div className=" flex flex-col m-auto w-full">
-                            <h1>Incorporation & Secretarial</h1>
-                            <p className=" pr-40">
+                        <div className=" flex flex-col m-auto">
+                            <h1 className=" w-96 pb-4">Incorporation & Secretarial</h1>
+                            <p className=" w-96">
                                 Register your company whether you are a sole trader, partnership, or limited company. Thereafter, we can act as the company secretary to help ensure compliance with Singapore company law, from AGMs to filing of annual returns.
                             </p>
                         </div>

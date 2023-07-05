@@ -1,4 +1,4 @@
-import TopMenu from './copy'
+import TopMenu from './topMenu'
 import Footer from './footer'
 
 export default function Layout({children}) {

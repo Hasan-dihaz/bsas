@@ -3,7 +3,7 @@
 import React, { useState } from "react";
 import { createPopper } from "@popperjs/core";
 
-export default function TopMenu({ color }) {
+export default function Navbar({ color }) {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
 
@@ -42,7 +42,7 @@ export default function TopMenu({ color }) {
                     </div>
                 </a>
                 <div className="w-full md:block md:w-auto" >
-                    <ul className="flex font-medium p-4 md:p-0 mt-4 border  rounded-lg flex-row space-x-8 md:mt-0 md:border-0 ">
+                    <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border  rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
                         <li>
                             <a href="#" className="block py-2 pl-3 pr-4 text-black bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</a>
                         </li>
@@ -57,10 +57,9 @@ export default function TopMenu({ color }) {
                                 }}>
 
                                 Services
-                                {/* <svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" />
-                                </svg> */}
-                                </button>
+                                <svg className="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
+                                </svg></button>
 
                             <div
                                 ref={popoverDropdownRef}
