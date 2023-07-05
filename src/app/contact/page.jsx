@@ -1,13 +1,13 @@
-import Layout from "../../../components/layout"
+import Layout from "../../components/layout"
 export default function Contact() {
     return (
-        <Layout>
-            <div className="h-1/2">
-                <div className="text-center w-1/2 m-auto">
-                    <p>
+        <Layout className="">
+            <div className="">
+                <div className=" w-6/12 mx-auto h-96 pt-20">
+                    <h1 className=" text-center text-4xl pb-4">
                         Contact Us
-                    </p>
-                    <p>
+                    </h1>
+                    <p className=" text-base text-center">
                         Please direct any queries to Mr Wee Choo Peng at emailaddress@website.com.
                         We look forward to getting in touch with you.
                     </p>
