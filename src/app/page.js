@@ -1,7 +1,10 @@
-import NavBar from './navBar'
+import Layout from './lyout'
 
 export default function Home() {
   return (
-    <NavBar/>
+    <div className= "">
+     <Layout>
+     </Layout>
+    </div>
   )
 }
