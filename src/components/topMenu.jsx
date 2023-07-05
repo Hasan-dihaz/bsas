@@ -37,7 +37,6 @@ export default function Navbar({ color }) {
                         </span>
                         <span className="text-xl font-light">
                             A Member of Titan Corporate Services
-                            Services
                         </span>
                     </div>
                 </a>

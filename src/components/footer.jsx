@@ -43,7 +43,6 @@ export default function Footer({ color }) {
                     </span>
                     <span className="text-xl font-light">
                         A Member of Titan Corporate Services
-                        Services
                     </span>
                 </div>
 
