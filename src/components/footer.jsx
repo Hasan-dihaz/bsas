@@ -35,9 +35,9 @@ export default function Footer({ color }) {
     return (
 
         // <nav className="bg-white border-gray-200 ">
-        <div className="max-w-screen-xl mx-auto 2xl: mt-20">
+        <div className=" w-full mx-auto 2xl: mt-20">
             <div className=" border w-11/12 mx-auto"></div>
-            <div className="max-w-screen-xl mx-auto 2xl: flex justify-between  p-4">
+            <div className=" w-full mx-auto 2xl: flex justify-between  p-4">
                 <div className=" whitespace-nowrap text-black">
                     <span className="text-2xl font-bold">
                         BSAS <br />
@@ -50,7 +50,7 @@ export default function Footer({ color }) {
                 <div className="w-full md:block md:w-auto" >
                     <ul className="flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-20 md:mt-0 md:border-0 ">
                         <li className="">
-                            <Link href="#" className="block py-2 pl-3 pr-4 text-lg font-medium text-black  bg-blue-700 rounded md:bg-transparent md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent" aria-current="page">Home</Link>
+                            <Link href="#" className="block py-2 pl-3 pr-4 text-lg font-medium text-black rounded md:bg-transparent md:p-0  md:dark:bg-transparent" aria-current="page">Home</Link>
                         </li>
                         <li className="w-20">
                             <button id="dropdownNavbarLink" data-dropdown-toggle="dropdownNavbar" className="flex items-center justify-between py-2 pl-3 pr-4 rounded md:hover:bg-transparent md:border-0 md:p-0 md:w-auto text-lg font-medium text-black"

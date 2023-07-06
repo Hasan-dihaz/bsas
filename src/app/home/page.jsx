@@ -12,7 +12,7 @@ export default function Home() {
 
     return (
         <Layout>
-            <div className=" flex flex-col max-w-screen-xl mx-auto 2xl:max-w-screen-2xl 2xl:mx-auto  p-4">
+            <div className=" flex flex-col max-w-screen-2xl  p-4">
                 <div className="flex flex-row justify-between mt-20">
                     <div className=" w-1/2 flex">
                         <div className=" flex flex-col my-auto">
