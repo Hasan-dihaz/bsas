@@ -43,7 +43,7 @@ export default function Navbar({ color }) {
                 <div className="w-full md:block md:w-auto" >
                     <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border  rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0 ">
                         <li>
-                            <Link href="/home" className="block py-2 px-4 pl-3 pr-4 text-black text-lg font-medium rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
+                            <Link href="/" className="block py-2 px-4 pl-3 pr-4 text-black text-lg font-medium rounded md:bg-transparent md:p-0 md:dark:bg-transparent" aria-current="page">
                                 Home
                             </Link>
                         </li>
