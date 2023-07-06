@@ -9,9 +9,8 @@ import img5 from '../../../images/image 5.png'
 export default function Contact() {
     return (
         <Layout>
-
-            <div className="flex flex-col max-w-screen-xl mx-auto p-4">
-                <div className="flex flex-col items-center w-full">
+            {/* <div className="flex flex-col max-w-screen-xl mx-auto p-4"> */}
+                <div className="flex flex-col items-center w-full mt-20">
                     <h1 className=" text-center text-4xl w-7/12 pb-4">
                         Comprehensive Accounting, Corporate
                         & Fund Administration Services
@@ -23,7 +22,7 @@ export default function Contact() {
                         <Button props={'Get in Touch'} />
                     </div>
                 </div>
-                <div className="flex flex-row justify-between pt-20">
+                <div className="flex flex-row justify-between mt-20">
                     <div className=" w-1/2 flex">
                         <div className=" flex flex-col my-auto">
                             <h1 className=" w-96 text-4xl pb-4">Incorporation & Secretarial</h1>
@@ -44,7 +43,7 @@ export default function Contact() {
                 </div>
 
 
-                <div className="flex flex-row justify-between pt-20">
+                <div className="flex flex-row justify-between mt-20">
                     <div className="w-1/2">
                         <Image
                             src={img2}
@@ -63,7 +62,7 @@ export default function Contact() {
                 </div>
 
 
-                <div className="flex flex-row justify-between pt-20">
+                <div className="flex flex-row justify-between mt-20">
                     <div className=" w-1/2 flex">
                         <div className=" flex flex-col my-auto">
                             <h1 className=" w-96 text-4xl pb-4">HR & Payroll</h1>
@@ -88,7 +87,7 @@ export default function Contact() {
                 </div>
 
 
-                <div className="flex flex-row justify-between pt-20">
+                <div className="flex flex-row justify-between mt-20">
                     <div className="w-1/2">
                         <Image
                             src={img4}
@@ -113,7 +112,7 @@ export default function Contact() {
                 </div>
 
 
-                <div className="flex flex-row justify-between pt-20">
+                <div className="flex flex-row justify-between mt-20">
                     <div className=" w-1/2 flex">
                         <div className=" flex flex-col my-auto">
                             <h1 className=" w-96 text-4xl pb-4">Management Consulting</h1>
@@ -135,7 +134,7 @@ export default function Contact() {
                     </div>
                 </div>
 
-            </div>
+            {/* </div> */}
         </Layout>
     )
 
