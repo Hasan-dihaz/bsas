@@ -16,11 +16,11 @@ export default function Home() {
                 <div className="flex flex-row justify-between mt-20">
                     <div className=" w-1/2 flex">
                         <div className=" flex flex-col my-auto">
-                            <h1 className="text-4xl ">Comprehensive Accounting, Corporate & Fund Administration Services</h1>
-                            <p className=" w-96 text-base text-justify">
+                            <h1 className=" w-[624px]">Comprehensive Accounting, Corporate & Fund Administration Services</h1>
+                            <p className=" w-[530px] text-lg text-justify pt-4">
                                 We offer a suite of services spanning corporate secretarial, accounting, fund administration, and management consulting.
                             </p>
-                            <div className=" pt-3">
+                            <div className=" pt-10">
                                 <Button props={'Get in Touch'} />
                             </div>
                         </div>
