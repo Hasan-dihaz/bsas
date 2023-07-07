@@ -111,6 +111,16 @@ export default function Contact() {
                 <p className=" text-justify">
                     I enlisted BSA to provide fund administration services for my new fund. I was impressed with their high quality of work that ensured strong investor engagement, allowing me to focus on managing my portfolio.
                 </p>
+
+                <div className=" flex justify-center mt-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="184" height="16" viewBox="0 0 184 16" fill="none">
+                        <circle cx="8" cy="8" r="6" fill="#2639ED" />
+                        <circle cx="50" cy="8" r="6" fill="#E7F0FC" />
+                        <circle cx="92" cy="8" r="6" fill="#E7F0FC" />
+                        <circle cx="134" cy="8" r="6" fill="#E7F0FC" />
+                        <circle cx="176" cy="8" r="6" fill="#E7F0FC" />
+                    </svg>
+                </div>
             </div>
         </Layout>
     )
