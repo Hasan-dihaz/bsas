@@ -10,12 +10,12 @@ export default function Contact() {
     return (
         <Layout >
             <div className=" mx-auto text-center h-96 pt-20 w-full">
-                <h1 className=" pb-2">
+                <h1 className="">
                     Who our clients are
                 </h1>
-                <p className=" text-base pb-12">
+                <h5 className=" text-base pb-12">
                     Our clients operate in a diverse range of industries.
-                </p>
+                </h5>
                 <div className=" w-full flex flex-row justify-between">
                     <div className=" w-44 h-48 flex flex-col items-center">
                         <div className="h-2/3">
@@ -25,7 +25,7 @@ export default function Contact() {
                                 className="h-full w-full"
                             />
                         </div>
-                        <h2 className=" py-1">F&B</h2>
+                        <h4 className="">F&B</h4>
                         <p className=" text-center text-base px-0">
                             Restaurants,
                             Food Processing
@@ -39,7 +39,7 @@ export default function Contact() {
                                 className="h-full w-full"
                             />
                         </div>
-                        <h2 className=" py-1">Healthcare</h2>
+                        <h4 className=" ">Healthcare</h4>
                         <p className=" text-center text-base px-0">
                             Traditional Chinese Medicine
                         </p>
@@ -52,7 +52,7 @@ export default function Contact() {
                                 className="h-full w-full"
                             />
                         </div>
-                        <h2 className=" py-1">Manufacturing</h2>
+                        <h4 className=" ">Manufacturing</h4>
                         <p className=" text-center text-base px-0">
                             Production, Packaging
                         </p>
@@ -65,7 +65,7 @@ export default function Contact() {
                                 className="h-full w-full"
                             />
                         </div>
-                        <h2 className=" py-1">Technology</h2>
+                        <h4 className=" ">Technology</h4>
                         <p className=" text-center text-base px-0">
                             IT Services,
                             Software Development
@@ -79,7 +79,7 @@ export default function Contact() {
                                 className="h-full w-full"
                             />
                         </div>
-                        <h2 className=" py-1">Retail</h2>
+                        <h4 className=" ">Retail</h4>
                         <p className=" text-center text-base px-0">
                         </p>
                     </div>
@@ -91,7 +91,7 @@ export default function Contact() {
                                 className="h-full w-full"
                             />
                         </div>
-                        <h2 className=" py-1">Investment</h2>
+                        <h4 className=" ">Investment</h4>
                         <p className=" text-center text-base px-0">
                             Funds, Family Offices, REITs
                         </p>
@@ -99,16 +99,16 @@ export default function Contact() {
                 </div>
 
             </div>
-            <div className=" w-6/12 mx-auto my-24">
-                <h1 className=" text-center">
+            <div className=" w-6/12 mx-auto mt-36">
+                <h2 className=" text-center">
                     What our clients say
-                </h1>
-                <div className=" my-5">
-                    <h2> Matthew P.</h2>
-                    <h3> Car Repair Shop Owner</h3>
+                </h2>
+                <div className=" mt-8 mb-3">
+                    <h3> Matthew P.</h3>
+                    <p className=" text-left text-base"> Car Repair Shop Owner</p>
                 </div>
 
-                <p className=" text-base text-justify">
+                <p className=" text-justify">
                     I enlisted BSA to provide fund administration services for my new fund. I was impressed with their high quality of work that ensured strong investor engagement, allowing me to focus on managing my portfolio.
                 </p>
             </div>

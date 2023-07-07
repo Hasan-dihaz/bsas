@@ -2,7 +2,7 @@ import Layout from "../../components/layout"
 export default function Contact() {
     return (
         <Layout className=" h-screen">
-                <div className=" w-6/12 mx-auto mt-20">
+                <div className="  mb-auto w-6/12 mx-auto mt-20">
                     <h1 className=" text-center text-4xl pb-4">
                         Contact Us
                     </h1>

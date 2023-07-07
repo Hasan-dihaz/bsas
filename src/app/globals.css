@@ -5,22 +5,63 @@
 h1 {
   //color: #000;
   font-size: 2.25rem/* 36px */;
-  line-height: 3rem/* 40px */;
+  line-height: 3rem;
   font-weight: 600
 }
 
 h2 {
-  font-size: 1.25rem; /* 20px */
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  font-weight: 600
+}
+
+h3 {
+  font-size: 1.125rem; /* 18px */
   line-height: 1.75rem; /* 28px */
   font-weight: 600
 }
 
-p{
- //font-size: 0.875rem/* 14px */;
-  //line-height: 1.25rem/* 20px */;
-  font-size: 0.75rem/* 12px */;
-    line-height: 1rem/* 16px */;
+h4 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  padding-top: 0.75rem; /* 12px */
+  padding-bottom: 0.25rem;
+  font-weight: 600
 }
+
+h5 {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  padding-top: 1rem; /* 16px */
+  
+}
+
+h6 {
+  font-size: 1rem; /* 16px */
+  line-height: 1.5rem; /* 24px */
+  padding-top: 0.75rem; /* 12px */
+  text-align: justify;
+  
+}
+
+ul{
+  text-align: justify;
+}
+
+
+
+p{
+
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  text-align: center;
+}
+
+
+.card {
+  @apply w-52 h-64 p-4 mb-4 bg-[#FFFFFF] rounded-xl flex flex-col justify-evenly items-center;
+}
+ 
 
 /*html{
   font-family: Inter;

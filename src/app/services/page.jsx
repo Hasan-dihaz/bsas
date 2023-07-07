@@ -11,13 +11,13 @@ export default function Contact() {
         <Layout>
             {/* <div className="flex flex-col max-w-screen-xl mx-auto p-4"> */}
             <div className="flex flex-col items-center w-full mt-20">
-                <h1 className=" text-center  w-7/12 pb-4">
+                <h1 className=" text-center  w-7/12">
                     Comprehensive Accounting, Corporate
                     & Fund Administration Services
                 </h1>
-                <p className=" w-6/12 text-lg text-center">
+                <h5 className=" w-6/12 text-lg text-center">
                     We offer a suite of services spanning corporate secretarial, accounting, HR, fund administration, and management consulting.
-                </p>
+                </h5>
                 <div className=" pt-5">
                     <Button props={'Get in Touch'} />
                 </div>
@@ -25,10 +25,10 @@ export default function Contact() {
             <div className="flex flex-row justify-between mt-20">
                 <div className=" w-1/2 flex">
                     <div className=" flex flex-col my-auto">
-                        <h1 className=" w-96 text-4xl pb-4">Incorporation & Secretarial</h1>
-                        <p className=" text-base">
+                        <h2 className=" w-96">Incorporation & Secretarial</h2>
+                        <h6 className=" w-[400px]">
                             Register your company whether you are a sole trader, partnership, or limited company. Thereafter, we can act as the company secretary to help ensure compliance with Singapore company law, from AGMs to filing of annual returns.
-                        </p>
+                        </h6>
                     </div>
                 </div>
                 <div className="w-1/2">
@@ -53,10 +53,10 @@ export default function Contact() {
                 </div>
                 <div className=" w-1/2 flex justify-end">
                     <div className=" flex flex-col my-auto">
-                        <h1 className=" w-96 text-4xl pb-4">Accounting, GST & Tax Filing</h1>
-                        <p className=" w-96 text-base">
+                        <h2 className=" w-96 ">Accounting, GST & Tax Filing</h2>
+                        <h6 className="w-[400px]">
                             Save time and resources by entrusting us with your bookkeeping, financial statement preparation, GST, and tax filing tasks. We are also happy to assist with opening bank accounts and providing escrow services.
-                        </p>
+                        </h6>
                     </div>
                 </div>
             </div>
@@ -65,9 +65,9 @@ export default function Contact() {
             <div className="flex flex-row justify-between mt-20">
                 <div className=" w-1/2 flex">
                     <div className=" flex flex-col my-auto">
-                        <h1 className=" w-96 text-4xl pb-4">HR & Payroll</h1>
+                        <h2 className=" w-96 ">HR & Payroll</h2>
                         <div className=" w-96">
-                            <ul className="list-disc text-base pl-6">
+                            <ul className="list-disc text-base pl-6 pt-3">
                                 <li>Employment pass application</li>
                                 <li>Recruitment and termination</li>
                                 <li>Leave and benefits</li>
@@ -97,10 +97,10 @@ export default function Contact() {
                 </div>
                 <div className=" w-1/2 flex justify-end">
                     <div className=" flex flex-col my-auto">
-                        <h1 className=" w-96 text-4xl pb-4">Fund Administration</h1>
+                        <h2 className=" w-96 ">Fund Administration</h2>
 
                         <div className=" w-96">
-                            <ul className="list-disc text-base pl-6">
+                            <ul className="list-disc text-base pl-6 pt-3">
                                 <li >Portfolio accounting in accordance with IFRS</li>
                                 <li>Fund valuation</li>
                                 <li>Tracking of investor commitments, capital calls, and distributions</li>
@@ -115,9 +115,9 @@ export default function Contact() {
             <div className="flex flex-row justify-between mt-20">
                 <div className=" w-1/2 flex">
                     <div className=" flex flex-col my-auto">
-                        <h1 className=" w-96 text-4xl pb-4">Management Consulting</h1>
+                        <h2 className=" w-96">Management Consulting</h2>
                         <div className=" w-96">
-                            <ul className="list-disc text-base pl-6">
+                            <ul className="list-disc text-base pl-6 pt-3">
                                 <li >Mergers and Acquisitions</li>
                                 <li>Improvements in process efficiency</li>
                                 <li>Formalisation of policies and procedures</li>

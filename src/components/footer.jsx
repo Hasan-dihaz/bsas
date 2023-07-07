@@ -36,8 +36,8 @@ export default function Footer({ color }) {
 
         // <nav className="bg-white border-gray-200 ">
         <div className=" w-full mx-auto 2xl: mt-20">
-            <div className=" border w-11/12 mx-auto"></div>
-            <div className=" w-full mx-auto 2xl: flex justify-between  p-4">
+            <div className=" border w-11/12 mx-auto "></div>
+            <div className=" w-full mx-auto 2xl: flex justify-between p-4">
                 <div className=" whitespace-nowrap text-black">
                     <span className="text-2xl font-bold">
                         BSAS <br />
