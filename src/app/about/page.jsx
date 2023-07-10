@@ -2,9 +2,8 @@ import Layout from "../../components/layout"
 export default function About() {
     return (
         <Layout className=" h-screen">
-
-            <div className="w-7/12 mx-auto h-96 pt-20">
-                <h1 className=" text-center text-4xl pb-4">
+            <div className=" mb-auto w-7/12 mx-auto mt-20">
+                <h1 className=" text-center pb-4">
                     About Us
                 </h1>
                 <p className=" text-base text-center">

@@ -16,11 +16,11 @@ export default function Home() {
                 <div className="flex flex-row justify-between mt-20">
                     <div className=" w-1/2 flex">
                         <div className=" flex flex-col my-auto">
-                            <h1 className="text-4xl ">Comprehensive Accounting, Corporate & Fund Administration Services</h1>
-                            <p className=" w-96 text-base text-justify">
+                            <h1 className=" w-[624px]">Comprehensive Accounting, Corporate & Fund Administration Services</h1>
+                            <h5 className=" w-[530px] text-justify">
                                 We offer a suite of services spanning corporate secretarial, accounting, fund administration, and management consulting.
-                            </p>
-                            <div className=" pt-3">
+                            </h5>
+                            <div className=" pt-10">
                                 <Button props={'Get in Touch'} />
                             </div>
                         </div>
@@ -39,19 +39,21 @@ export default function Home() {
                 <div className=" aspect-square w-full flex items-center">
                     <div className=" absolute left-0 aspect-square w-5/12 z-10 flex items-center justify-center rounded-full bg-[#FFF5DB]">
                         <div className=" flex flex-col my-auto">
-                            <h1 className="">How we can help</h1>
-                            <p className=" w-80 text-base text-justify">
+                            <h2 className="">How we can help</h2>
+                            <h6 className=" w-80 text-justify">
                                 Relieve your administrative burdens and focus on running your business.
-                            </p>
-                            <div className=" pt-3">
+                            </h6>
+                            <div className=" pt-6">
                                 <Button props={'Explore all Services'} />
                             </div>
                         </div>
                     </div>
                     <div className="absolute right-0 aspect-square w-8/12 rounded-full bg-[#DAE9FF] ">
                         <div className="relative right-20 flex items-center h-full w-fit mx-auto">
-                            <div className=" h-fit pr-3">
-                                <div className="w-48 h-60 bg-[#FFFFFF] rounded-xl mb-3 flex flex-col justify-evenly items-center px-4">
+                            <div className=" h-fit pr-4">
+
+
+                                <div className=" card">
                                     <div className="h-1/3">
                                         <Image
                                             src={img12}
@@ -62,15 +64,17 @@ export default function Home() {
                                         />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-center">Incorporation & Secretarial</h2>
+                                        <h3 className="text-center">Incorporation & Secretarial</h3>
                                     </div>
                                     <div className=" ">
-                                        <p className="text-center">
+                                        <p className=" ">
                                             Leave your company administration to us.
                                         </p>
                                     </div>
                                 </div>
-                                <div className=" w-48 h-60 bg-[#FFFFFF] rounded-xl mb-3 flex flex-col justify-evenly items-center px-4">
+
+
+                                <div className=" card">
                                     <div className="h-1/3">
                                         <Image
                                             src={img13}
@@ -81,17 +85,17 @@ export default function Home() {
                                         />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-center">Fund Administration</h2>
+                                        <h3 className="text-center w-40">Fund Administration</h3>
                                     </div>
                                     <div className=" ">
-                                        <p className="text-center">
+                                        <p className="">
                                             Focus on managing your portfolio and let us take care of the rest.
                                         </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="h-fit">
-                                <div className=" w-48 h-60 bg-[#FFFFFF] rounded-xl mb-3 flex flex-col justify-evenly items-center px-4">
+                                <div className=" card">
                                     <div className="h-1/3">
                                         <Image
                                             src={img10}
@@ -102,16 +106,16 @@ export default function Home() {
                                         />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-center">Accounting, GST & Tax Filing</h2>
+                                        <h3 className="text-center">Accounting, GST & Tax Filing</h3>
                                     </div>
                                     <div className=" ">
-                                        <p className="text-center">
+                                        <p className="">
                                             Bookkeeping, financial reporting, and tax filing - all taken care of.
                                         </p>
                                     </div>
 
                                 </div>
-                                <div className=" w-48 h-60 bg-[#FFFFFF] rounded-xl mb-3 flex flex-col justify-evenly items-center px-4">
+                                <div className=" card">
                                     <div className="h-1/3">
                                         <Image
                                             src={img11}
@@ -122,15 +126,15 @@ export default function Home() {
                                         />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-center">HR & Payroll</h2>
+                                        <h3 className="text-center">HR & Payroll</h3>
                                     </div>
                                     <div className=" ">
-                                        <p className="text-center">
+                                        <p className="">
                                             Outsource all employment-related responsibilities to us.
                                         </p>
                                     </div>
                                 </div>
-                                <div className=" w-48 h-60 bg-[#FFFFFF] rounded-xl mb-3 flex flex-col justify-evenly items-center px-4">
+                                <div className=" card">
                                     <div className="h-1/3">
                                         <Image
                                             src={img11}
@@ -141,10 +145,10 @@ export default function Home() {
                                         />
                                     </div>
                                     <div className="">
-                                        <h2 className="text-center">Management Consulting</h2>
+                                        <h3 className="text-center">Management Consulting</h3>
                                     </div>
                                     <div className="">
-                                        <p className="text-center">
+                                        <p className="">
                                             Consulting for M&As and internal company policies.
                                         </p>
                                     </div>
@@ -167,10 +171,10 @@ export default function Home() {
                     </div>
                     <div className=" w-1/2 flex justify-end">
                         <div className=" flex flex-col my-auto ">
-                            <h1 className="  pb-4 text-4xl w-96">Over 30 years of combined experience</h1>
-                            <p className=" w-96 text-base text-justify">
+                            <h2 className="  pb-4 w-96">Over 30 years of combined experience</h2>
+                            <h6 className=" w-96 ">
                                 We draw on our extensive knowledge and experience to manage the administrative and accounting functions in your business. We are here to help improve your business’ productivity and profitability so you can focus on operating and growing it.
-                            </p>
+                            </h6>
                         </div>
                     </div>
                 </div>

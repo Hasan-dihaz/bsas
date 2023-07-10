@@ -3,10 +3,6 @@ import Home from './home/page.jsx'
 
 export default function App() {
   return (
-    // <div className= "">
-    //  <Layout>
-    //  </Layout>
-    // </div>
     <Home/>
   )
 }
